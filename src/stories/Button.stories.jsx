@@ -4,7 +4,7 @@ import { Button } from "./Button";
 
 // More on default export: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
 export default {
-  title: 'Example/Button',
+  title: "Example/Button",
   component: Button,
 };
 
@@ -20,6 +20,13 @@ export default {
 // export default {
 //   title: "Example/Button",
 //   component: Button,
+//   decorators: [
+//     (Story) => (
+//       <div style={{ display: "flex", justifyContent: "center" }}>
+//         <Story />
+//       </div>
+//     ),
+//   ],
 //   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
 //   argTypes: {
 //     primary: {
